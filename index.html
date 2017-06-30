@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WeTalk&amp;Learn</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+    <script src="semantic.min.js"></script>
+    <style type="text/css">
+        html{ height: 100%; width: 100%; margin: 0; }
+
+        body {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        height: 100%; width: 100%;
+        }
+        .background{
+            margin-top:0px;
+            margin-left:0px;
+            margin-bottom:0px;
+            margin-right:0px;
+            height: 100%;
+            background: #cdeb8e; /* Old browsers */
+            background: #cdeb8e; /* Old browsers */
+            background: -moz-linear-gradient(top, #cdeb8e 0%, #4cad93 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #cdeb8e 0%,#4cad93 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #cdeb8e 0%,#4cad93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#4cad93',GradientType=0 );
+
+        }
+        .round-button {
+            width:10%;
+            position: absolute;
+            left: 45%;
+            top: 55%;
+
+        }
+        .round-button-circle {
+            width: 100%;
+            height:0;
+            padding-bottom: 100%;
+            border-radius: 100%;
+            border:10px solid #e5e5e5;
+            overflow:hidden;
+            background-color: aliceblue; 
+        }
+        .round-button-circle:hover {
+            box-shadow: 0 20px 30px dimgrey;
+            
+        }
+        .round-button-circle:active {
+            background:#0db7ed;
+            box-shadow: 0 10px 15px dimgrey;
+            transform: translateY(10px);
+        }
+        .round-button-circle:active a{
+            color: aliceblue;
+            font-size:1.8em;
+            left: 3%;
+            font-weight: bold;
+        }
+        .round-button a {
+            float:left;
+            width:100%;
+            height: 1cm;
+            top: 43%;
+            overflow: visible;
+            left: 16%;
+            text-align:left;
+            color:#0db7ed;
+            font-family:Verdana;
+            font-size:1.67em;
+            font-weight:lighter;
+            text-decoration:none;
+        }
+        .picture{
+            position: absolute;
+            left: 25%;
+            top:3%;
+            height: 55%;
+            width:50%;
+            background-image: url(countrys.png);
+        }
+        .foot{
+            position: absolute;
+            bottom: 8%;
+            width: 100%;
+            text-align: center;  
+            background-color: darkslategray;
+            line-height: 12px;　　　          　/* 設定文字行距 */
+
+        }
+        .foot p{
+            color: aliceblue;
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <div class="picture"></div>
+        <div class="ui container">
+            <div class="round-button">
+                <div class="round-button-circle">
+                    <a href="signIn.php" class="round-button">Chatting</a>
+                </div>
+            </div>            
+        </div>
+
+        <div class="foot"><p>WeTalk&amp;Learn  讓你可以跟全世界的人利用更種語言聊天學習。</p><p>WeTalk&amp;Learn allows you to chat with people around the world use more languages to learn.</p></div>
+    </div>
+</body>
+</html>

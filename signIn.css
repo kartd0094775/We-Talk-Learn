@@ -1,0 +1,219 @@
+.back{
+    
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    height:100%;
+    width: 100%;
+    background-color:#96d6de;
+    -webkit-filter:blur(2px);
+    opacity: 0.8;
+    z-index: -1;
+
+}
+html{ height: 100%; width: 100%; margin: 0; }
+
+body {
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+height: 100%; width: 100%;
+}
+.imgplace{
+    position: absolute;
+    left: 23%;
+    
+}
+.login{
+    background-color: black;
+    height: 74%;
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    opacity: 0.4;
+    box-shadow: 0 0 50px black;
+    border-radius: 20px;
+
+}
+.register{
+    background-color: black;
+    height: 74%;
+    width: 20%;
+    position: absolute;
+    right: 10%;
+    top: 12%;
+    opacity: 0.4;
+    box-shadow: 0 0 50px black;
+    border-radius: 20px;
+
+}
+.title1{
+    text-align: center;
+    height:1.8cm;
+    opacity: 1;
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    top:13.5%;
+    color: floralwhite;
+    font-size: 200%;
+    font-family:  Verdana;
+    line-height: 1.8cm;
+    font-family: Comic Sans MS,arial,helvetica,sans-serif,"微軟正黑體";
+
+}
+.title2{
+    text-align: center;
+    height:1.8cm;
+    opacity: 1;
+    width:20%;
+    position: absolute;
+    right: 10%;
+    top:13.5%;
+    color: floralwhite;
+    font-size: 200%;
+    font-family:  Verdana;
+    line-height: 1.4cm;
+    font-family: Comic Sans MS,arial,helvetica,sans-serif,"微軟正黑體";
+
+}
+hr{
+    border:0; 
+    height:1%; 
+    border-top: 0.5px solid rgba(0, 0, 0, 1);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.textbox {
+    height: 50%;
+    width: 60%;
+    border: 1px solid #B9BDC1;
+    color: #797979;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #BBB inset;
+    box-shadow: 0 2px 4px #BBB inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 6px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.textbox:focus {
+    background-color: #E7E8E7;
+    outline: 0;
+    border:2px inset black;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 55%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 10px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content:  url(log-in-arrow.png);;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -100px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 35px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: -10px;
+}
+.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#49D14F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 55%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 10px;
+
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content:  url(check-mark.png);;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -100px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 35px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: -10px;
+}
+.boy{
+    position: absolute;
+    left: 31.5%;
+    bottom: 17%;
+}
+.girl{
+    position: absolute;
+    right: 31.5%;
+    bottom: 17%;
+}
+.talk1{
+    position: absolute;
+    left: 44%;
+    bottom: 28%;
+}
+.talk2{
+    position: absolute;
+    right: 43%;
+    bottom: 23%;
+}
+.talk3{
+    position: absolute;
+    left: 45.8%;
+    bottom: 32.3%;
+}
+a{
+    color: white;
+}
